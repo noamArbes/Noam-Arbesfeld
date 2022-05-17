@@ -3,23 +3,33 @@
 <head>
     <title>Noam's flowers</title>
     <link rel="stylesheet" type="text/css" href="../templates/style.ex1.css">
+    <script defer src="../static/js_ex2.js"></script>
 </head>
-<body>
-    <header>
-        <div class="main">
-            <ul>
-                <li class="active"><a href="../templates/index.ex1.html">Home Page</a></li>
-                <li><a href="../templates/contactUs.html">Contact us</a></li>
+
+<body class="home" onload="greet('lblGreetings'); markTab()" >
+        <div>
+            <ul class="navBar">
+                <nav>
+                    <li><a  href="../templates/index.ex1.html">Home Page</a></li>
+                    <li><a  href="../templates/contactUs.html">Contact us</a></li> 
+
+                </nav>
             </ul>
         </div>
-        <div class="title">
-            <h1>Welcome to Noam's flowers</h1> 
+        <div class="main">
+            <div class="title">
+                <h3 id="lblGreetings"></h3>
+                <h3>Welcome to Noam's Flowers</h3>
+            </div>
+        </div>
+        
+        <div class="wrapper">
+            <div class="typing">
+                Boutique flower shop.
+            </div>
         </div>  
-        <div class="sentence"> 
-            <h3>Boutique flower shop for every occasion</h3>
-        </div>      
-    </header>
-  
-  
+
+             
+   
 </body>
 </html>
