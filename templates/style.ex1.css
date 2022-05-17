@@ -12,7 +12,7 @@
 }
 
 #message{
-    font-size: 10px;
+    font-size: 12px;
     color: black;
 }
 
@@ -147,7 +147,7 @@ h2::after{
     width: 100%;
     padding: 0.5rem 1rem;
     outline: none;
-    border: 2px solid ;
+    border: 1.5px solid ;
     background-color: rgba(230,230,230,0.6);
     font-size: 1.1rem;
     margin-bottom:22px;
@@ -164,8 +164,7 @@ h2::after{
     background-color: rgb(234, 218, 248) ;
     cursor: pointer;
     border-radius: 30px;
-    border: none;  
-}
+    border: 1.5px solid ;}
 
 
 .btn:hover{
