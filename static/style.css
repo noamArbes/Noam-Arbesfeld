@@ -21,6 +21,13 @@
     height: 100vh;
 }
 
+header h1{
+    color: #fff;
+    font-weight: lighter;
+    margin-left: 32px;
+    margin-top: 15px;
+}
+
 
 .home{
 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../static/background_flower.jpg);
@@ -215,6 +222,9 @@ h2::after{
      }
      .typing{
          font-size: 24px;
+     }
+     header h1{
+         font-size: 20px;
      }
 }
 
